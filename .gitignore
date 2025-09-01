@@ -5,4 +5,4 @@
 postBuild
 .RData
 .Rhistory
-_build/
+_build/*
