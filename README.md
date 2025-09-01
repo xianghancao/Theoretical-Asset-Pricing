@@ -7,4 +7,4 @@
 ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
 
-docs for site: https://xxxx.readthedocs.io
+docs for site: https://theoretical-asset-pricing.readthedocs.io/
