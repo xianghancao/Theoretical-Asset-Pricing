@@ -1,0 +1,18 @@
+format: jb-book
+root: Home
+chapters:
+
+- file: 0_Intro/index
+  sections:
+  - file: 0_Intro/1. Timeline.ipynb
+
+- file: 1_Utility_theory_Risk_aversion/index
+  sections:
+  - file: 1_Utility_theory_Risk_aversion/1. Financial Markets
+  - file: 1_Utility_theory_Risk_aversion/2. Asset Valuation and Risk
+  - file: 1_Utility_theory_Risk_aversion/3. Ranking Investments
+  - file: 1_Utility_theory_Risk_aversion/4. Expected Utility Theory
+  - file: 1_Utility_theory_Risk_aversion/5. Problems with Expected Utility Theory
+
+
+
