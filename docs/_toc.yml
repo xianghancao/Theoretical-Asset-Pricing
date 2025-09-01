@@ -1,11 +1,10 @@
 format: jb-book
 root: Home
 chapters:
-
 - file: 0_Intro/index
   sections:
-  - file: 0_Intro/1. Timeline.ipynb
-
+  - file: 0_Intro/1. Timeline
+  - file: 0_Intro/1. Timeline_CN
 - file: 1_Utility_theory_Risk_aversion/index
   sections:
   - file: 1_Utility_theory_Risk_aversion/1. Financial Markets
@@ -13,6 +12,42 @@ chapters:
   - file: 1_Utility_theory_Risk_aversion/3. Ranking Investments
   - file: 1_Utility_theory_Risk_aversion/4. Expected Utility Theory
   - file: 1_Utility_theory_Risk_aversion/5. Problems with Expected Utility Theory
-
-
-
+- file: 2_Investment_decisions/index
+  sections:
+  - file: 2_Investment_decisions/1. Portfolio Allocation
+  - file: 2_Investment_decisions/2. Risk Aversion
+  - file: 2_Investment_decisions/3. Logarithmic Utility
+  - file: 2_Investment_decisions/4. Risk-Neutral Investors
+  - file: 2_Investment_decisions/5. Multiple Assets
+  - file: 2_Investment_decisions/6. Mean-Variance Framework
+- file: 3_Efficient_frontier/index
+  sections:
+  - file: 3_Efficient_frontier/1. Portfolio Frontier
+  - file: 3_Efficient_frontier/2. Properties of Frontier Portfolios
+  - file: 3_Efficient_frontier/3. Efficient Frontier
+  - file: 3_Efficient_frontier/4. Risk-Free Asset
+  - file: 3_Efficient_frontier/5. CAPM
+- file: 4_Arrow_Debreu/index
+  sections:
+  - file: 4_Arrow_Debreu/1. State Pricing
+  - file: 4_Arrow_Debreu/2. Arrow-Debreu Securities
+  - file: 4_Arrow_Debreu/3. Market Completeness
+- file: 5_SDF/index
+  sections:
+  - file: 5_SDF/1. Relative vs. Absolute Pricing
+  - file: 5_SDF/2. Representative Investor
+  - file: 5_SDF/3. State Prices
+  - file: 5_SDF/4. Stochastic Discount Factor (SDF)
+  - file: 5_SDF/5. Economic Insight
+- file: 6_CCAMP/index
+  sections:
+  - file: 6_CCAMP/1. CCAPM Framework
+  - file: 6_CCAMP/2. Risk Corrections
+  - file: 6_CCAMP/3. Link to CAPM
+- file: 7_Stochastic_processes/index
+  sections:
+  - file: 7_Stochastic_processes/1. Wiener Process
+  - file: 7_Stochastic_processes/2. Markov Property
+  - file: 7_Stochastic_processes/3. Continuous-Time Limit
+  - file: 7_Stochastic_processes/4. Itô Integral
+  - file: 7_Stochastic_processes/5. Generalized Wiener Process

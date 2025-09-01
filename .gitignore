@@ -6,3 +6,4 @@ postBuild
 .RData
 .Rhistory
 _build/*
+生成目录*
