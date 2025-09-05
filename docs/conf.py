@@ -3,7 +3,7 @@
 # If you wish to continue using _config.yml, make edits to that file and
 # re-generate this one.
 ###############################################################################
-author = 'For Study & Research'
+author = 'X.Cao'
 comments_config = {'hypothesis': False, 'utterances': False}
 copyright = '2025'
 exclude_patterns = ['**.ipynb_checkpoints', '.DS_Store', 'Thumbs.db', '_build']

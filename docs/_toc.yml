@@ -5,6 +5,17 @@ chapters:
   sections:
   - file: 0_Intro/1. Timeline
   - file: 0_Intro/1. Timeline_CN
+  - file: 0_Intro/2. Modern Portfolio Theory (MPT)
+  - file: 0_Intro/3. CAPM
+  - file: 0_Intro/4. Empirical Failure of CAPM
+  - file: 0_Intro/5. Implications of CAPM’s Failure
+  - file: 0_Intro/Appendix-BM
+  - file: 0_Intro/Appendix-Capital Market Line
+  - file: 0_Intro/Appendix-The realistics of the quadratic utility function
+  - file: 0_Intro/Appendix-Tpyes of distribution of asset returns
+  - file: 0_Intro/Appendix-market porfolio in CAPM
+  - file: 0_Intro/Appendix-option of risk free asset
+  - file: 0_Intro/Appendix-横截面回归
 - file: 1_Utility_theory_Risk_aversion/index
   sections:
   - file: 1_Utility_theory_Risk_aversion/1. Financial Markets
@@ -12,6 +23,7 @@ chapters:
   - file: 1_Utility_theory_Risk_aversion/3. Ranking Investments
   - file: 1_Utility_theory_Risk_aversion/4. Expected Utility Theory
   - file: 1_Utility_theory_Risk_aversion/5. Problems with Expected Utility Theory
+  - file: 1_Utility_theory_Risk_aversion/Prerequisite-Utility_Function
 - file: 2_Investment_decisions/index
   sections:
   - file: 2_Investment_decisions/1. Portfolio Allocation
@@ -20,13 +32,15 @@ chapters:
   - file: 2_Investment_decisions/4. Risk-Neutral Investors
   - file: 2_Investment_decisions/5. Multiple Assets
   - file: 2_Investment_decisions/6. Mean-Variance Framework
-- file: 3_Efficient_frontier/index
+  - file: 2_Investment_decisions/Prerequisite-Risk_Aversion
+  - file: 2_Investment_decisions/Prerequisite-Risk_Aversion_Coefficients
+- file: 3_Mean-Variance_Analysis_CAPM/index
   sections:
-  - file: 3_Efficient_frontier/1. Portfolio Frontier
-  - file: 3_Efficient_frontier/2. Properties of Frontier Portfolios
-  - file: 3_Efficient_frontier/3. Efficient Frontier
-  - file: 3_Efficient_frontier/4. Risk-Free Asset
-  - file: 3_Efficient_frontier/5. CAPM
+  - file: 3_Mean-Variance_Analysis_CAPM/1. Portfolio Frontier
+  - file: 3_Mean-Variance_Analysis_CAPM/2. Properties of Frontier Portfolios
+  - file: 3_Mean-Variance_Analysis_CAPM/3. Efficient Frontier
+  - file: 3_Mean-Variance_Analysis_CAPM/4. Risk-Free Asset
+  - file: 3_Mean-Variance_Analysis_CAPM/5. CAPM
 - file: 4_Arrow_Debreu/index
   sections:
   - file: 4_Arrow_Debreu/1. State Pricing
