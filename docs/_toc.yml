@@ -41,11 +41,11 @@ chapters:
   - file: 3_Mean-Variance_Analysis_CAPM/3. Efficient Frontier
   - file: 3_Mean-Variance_Analysis_CAPM/4. Risk-Free Asset
   - file: 3_Mean-Variance_Analysis_CAPM/5. CAPM
-- file: 4_Arrow_Debreu/index
+- file: 4_State_Pricing/index
   sections:
-  - file: 4_Arrow_Debreu/1. State Pricing
-  - file: 4_Arrow_Debreu/2. Arrow-Debreu Securities
-  - file: 4_Arrow_Debreu/3. Market Completeness
+  - file: 4_State_Pricing/1. State Pricing
+  - file: 4_State_Pricing/2. Arrow-Debreu Securities
+  - file: 4_State_Pricing/3. Market Completeness
 - file: 5_SDF/index
   sections:
   - file: 5_SDF/1. Relative vs. Absolute Pricing
