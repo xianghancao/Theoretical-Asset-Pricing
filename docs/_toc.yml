@@ -41,11 +41,17 @@ chapters:
   - file: 3_Mean-Variance_Analysis_CAPM/3. Efficient Frontier
   - file: 3_Mean-Variance_Analysis_CAPM/4. Risk-Free Asset
   - file: 3_Mean-Variance_Analysis_CAPM/5. CAPM
+  - file: 3_Mean-Variance_Analysis_CAPM/Appendix-Capital Market Equilibrium
 - file: 4_State_Pricing/index
   sections:
-  - file: 4_State_Pricing/1. State Pricing
+  - file: 4_State_Pricing/1. Preliminary
   - file: 4_State_Pricing/2. Arrow-Debreu Securities
   - file: 4_State_Pricing/3. Market Completeness
+  - file: 4_State_Pricing/4. Incomplete Markets
+  - file: 4_State_Pricing/5. Law of One Price (LOP)
+  - file: 4_State_Pricing/6. Absence of Arbitrage
+  - file: 4_State_Pricing/7. Risk-Neutral Probabilities
+  - file: 4_State_Pricing/Appendix-Implications of Market Completeness
 - file: 5_SDF/index
   sections:
   - file: 5_SDF/1. Relative vs. Absolute Pricing
