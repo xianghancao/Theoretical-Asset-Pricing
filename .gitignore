@@ -7,3 +7,4 @@ postBuild
 .Rhistory
 _build/*
 生成目录*
+docs/Exercise
