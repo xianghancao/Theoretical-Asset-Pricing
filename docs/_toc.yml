@@ -1,87 +1,104 @@
 format: jb-book
 root: Home
 chapters:
-- file: 0_Intro/index
+- file: 1_Intro/index
   sections:
-  - file: 0_Intro/1. Timeline
-  - file: 0_Intro/1. Timeline_CN
-  - file: 0_Intro/2. Modern Portfolio Theory (MPT)
-  - file: 0_Intro/3. CAPM
-  - file: 0_Intro/4. Empirical Failure of CAPM
-  - file: 0_Intro/5. Implications of CAPM’s Failure
-  - file: 0_Intro/Appendix-BM
-  - file: 0_Intro/Appendix-Capital Market Line
-  - file: 0_Intro/Appendix-The realistics of the quadratic utility function
-  - file: 0_Intro/Appendix-Tpyes of distribution of asset returns
-  - file: 0_Intro/Appendix-market porfolio in CAPM
-  - file: 0_Intro/Appendix-option of risk free asset
-  - file: 0_Intro/Appendix-横截面回归
-- file: 1_Utility_theory/index
+  - file: 1_Intro/Zero-coupon bond
+- file: 2_Stochastic_Continuous-time/index
   sections:
-  - file: 1_Utility_theory/1. Utility Function
-  - file: 1_Utility_theory/2. Payoffs
-  - file: 1_Utility_theory/3. Expected Utility Theory
-  - file: 1_Utility_theory/4. Risk Aversion
-  - file: 1_Utility_theory/Appendix-Financial Markets
-  - file: 1_Utility_theory/Appendix-Problems with EUT
-  - file: 1_Utility_theory/Appendix-Ranking Investments
-- file: 2_Risk Aversion/index
+  - file: 2_Stochastic_Continuous-time/1. Wiener Process
+  - file: 2_Stochastic_Continuous-time/2. Generalized Wiener Process
+  - file: 2_Stochastic_Continuous-time/3. Geometric Brownian motion
+  - file: 2_Stochastic_Continuous-time/4. Itô process
+  - file: 2_Stochastic_Continuous-time/5. Itô's Lemma
+  - file: 2_Stochastic_Continuous-time/Appendix-Markov Property
+  - file: 2_Stochastic_Continuous-time/Multi-dimensional processes
+  - file: 2_Stochastic_Continuous-time/Stochastic integrals
+  - file: 2_Stochastic_Continuous-time/中文
+- file: 3_State_Pricing/index
   sections:
-  - file: 2_Risk Aversion/1. Portfolio Allocation
-  - file: 2_Risk Aversion/2. Risk Aversion
-  - file: 2_Risk Aversion/3. Logarithmic Utility
-  - file: 2_Risk Aversion/4. Risk-Neutral Investors
-  - file: 2_Risk Aversion/5. Multiple Assets
-  - file: 2_Risk Aversion/6. Mean-Variance Framework
-  - file: 2_Risk Aversion/Prerequisite-Risk_Aversion
-  - file: 2_Risk Aversion/Prerequisite-Risk_Aversion_Coefficients
-- file: 3_CAPM/index
+  - file: 3_State_Pricing/1. Payoff Matrix
+  - file: 3_State_Pricing/2. SDF
+  - file: 3_State_Pricing/2. State Pricing
+  - file: 3_State_Pricing/3. Market Completeness
+  - file: 3_State_Pricing/3. SDF Pricing
+  - file: 3_State_Pricing/4. Law of One Price (LOP)
+  - file: 3_State_Pricing/4. Risk premiums
+  - file: 3_State_Pricing/5. Risk-Neutral Probabilities
+  - file: 3_State_Pricing/5. Theorem-Fundamental Theorem
+  - file: 3_State_Pricing/6. Existence of SDF
+  - file: 3_State_Pricing/6. Incomplete Markets
+  - file: 3_State_Pricing/7. Absence of Arbitrage
+  - file: 3_State_Pricing/Appendix-Implications of Market Completeness
+  - file: 3_State_Pricing/Economy with representative agent
+  - file: 3_State_Pricing/Marginal Rate of Substitution
+  - file: 3_State_Pricing/Q&A
+  - file: 3_State_Pricing/Q
+  - file: 3_State_Pricing/Relative vs. Absolute Pricing
+  - file: 3_State_Pricing/State Price
+  - file: 3_State_Pricing/State-price deflater
+  - file: 3_State_Pricing/Time-Preference Factor
+- file: 4_Utility/index
   sections:
-  - file: 3_CAPM/1. Portfolio Frontier
-  - file: 3_CAPM/2. Properties of Frontier Portfolios
-  - file: 3_CAPM/3. Efficient Frontier
-  - file: 3_CAPM/4. Risk-Free Asset
-  - file: 3_CAPM/5. CAPM
-  - file: 3_CAPM/Appendix-Capital Market Equilibrium
-- file: 4_State_Pricing/index
+  - file: 4_Utility/1. Utility
+  - file: 4_Utility/2. Utility Function
+  - file: 4_Utility/3. Marginal Utility
+  - file: 4_Utility/4. Expected Utility
+  - file: 4_Utility/5. Risk Aversion
+  - file: 4_Utility/6. Risk_Aversion_Coefficients
+  - file: 4_Utility/7. Certainty equivalent
+  - file: 4_Utility/8. Risk Premium
+  - file: 4_Utility/9. Merton's Portfolio Problem
+  - file: 4_Utility/Appendix-Financial Markets
+  - file: 4_Utility/Appendix-Problems with EUT
+  - file: 4_Utility/Appendix-Ranking Investments
+  - file: 4_Utility/Risk-Neutral Investors
+- file: 5_CAPM/index
   sections:
-  - file: 4_State_Pricing/1. Payoff Matrix
-  - file: 4_State_Pricing/2. State Pricing
-  - file: 4_State_Pricing/3. Market Completeness
-  - file: 4_State_Pricing/4. Law of One Price (LOP)
-  - file: 4_State_Pricing/5. Risk-Neutral Probabilities
-  - file: 4_State_Pricing/6. Incomplete Markets
-  - file: 4_State_Pricing/7. Absence of Arbitrage
-  - file: 4_State_Pricing/Appendix-Implications of Market Completeness
-  - file: 4_State_Pricing/Q&A
-- file: 5_SDF_Pricing/index
-  sections:
-  - file: 5_SDF_Pricing/1. Relative vs. Absolute Pricing
-  - file: 5_SDF_Pricing/2. SDF
-  - file: 5_SDF_Pricing/3. SDF Pricing
-  - file: 5_SDF_Pricing/4. Risk premiums
-  - file: 5_SDF_Pricing/5. Fundamental Theorem
-  - file: 5_SDF_Pricing/6. Existence of SDF
-  - file: 5_SDF_Pricing/Q
+  - file: 5_CAPM/1. Portfolio Frontier
+  - file: 5_CAPM/1. Timeline
+  - file: 5_CAPM/2. Modern Portfolio Theory (MPT)
+  - file: 5_CAPM/2. Properties of Frontier Portfolios
+  - file: 5_CAPM/3. CAPM
+  - file: 5_CAPM/3. Efficient Frontier
+  - file: 5_CAPM/4. Empirical Failure of CAPM
+  - file: 5_CAPM/4. Risk-Free Asset
+  - file: 5_CAPM/5. CAPM
+  - file: 5_CAPM/5. Implications of CAPM’s Failure
+  - file: 5_CAPM/Appendix-Capital Market Equilibrium
+  - file: 5_CAPM/Appendix-Capital Market Line
+  - file: 5_CAPM/Appendix-Tpyes of distribution of asset returns
+  - file: 5_CAPM/Appendix-market porfolio in CAPM
+  - file: 5_CAPM/Appendix-option of risk free asset
 - file: 6_CCAMP/index
   sections:
   - file: 6_CCAMP/1. CCAPM
   - file: 6_CCAMP/2. Risk Corrections
   - file: 6_CCAMP/3. Link to CAPM
+  - file: 6_CCAMP/The Chan and Kogan model
   - file: 6_CCAMP/中文
-- file: 7_Continuous_Time/index
-  sections:
-  - file: 7_Continuous_Time/1. Wiener Process
-  - file: 7_Continuous_Time/2. Generalized Wiener Process
-  - file: 7_Continuous_Time/3. Geometric Brownian motion
-  - file: 7_Continuous_Time/4. Itô's Lemma
-  - file: 7_Continuous_Time/Appendix-Markov Property
-  - file: 7_Continuous_Time/中文
-- file: Appendix-Math/index
-  sections:
-  - file: Appendix-Math/1. Variace_Covariance
 - file: Appendix-Scholars/index
   sections:
   - file: Appendix-Scholars/Claus Munk
   - file: Appendix-Scholars/John Cochrane
   - file: Appendix-Scholars/Lars Peter Hansen
+- file: Exercise/index
+  sections:
+  - file: Exercise/9.19-solution
+  - file: Exercise/9.19
+  - file: Exercise/9.20-solution
+  - file: Exercise/9.20
+  - file: Exercise/9.21-solution
+  - file: Exercise/9.21
+  - file: Exercise/9.22-solution
+  - file: Exercise/9.22
+- file: Math/index
+  sections:
+  - file: Math/Chain Rule
+  - file: Math/Log-normal distribution
+  - file: Math/Normal distribution
+  - file: Math/Optimization problems
+  - file: Math/Product rule
+  - file: Math/Variance and Covariance
+  - file: Math/Vectors and matrices
+  - file: Math/柯西施瓦茨不等式

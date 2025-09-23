@@ -8,3 +8,4 @@ postBuild
 _build/*
 生成目录*
 docs/Exercise
+Notes
