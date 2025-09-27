@@ -9,8 +9,9 @@ chapters:
   - file: 1_Intro/Zero-coupon bond
 - file: 2_Stochastic_Continuous-time/index
   sections:
-  - file: 2_Stochastic_Continuous-time/1. Wiener Process
+  - file: 2_Stochastic_Continuous-time/1. Brownian Motion
   - file: 2_Stochastic_Continuous-time/2. Generalized Wiener Process
+  - file: 2_Stochastic_Continuous-time/3. Itô integral
   - file: 2_Stochastic_Continuous-time/3. Itô's Lemma
   - file: 2_Stochastic_Continuous-time/4. Itô process
   - file: 2_Stochastic_Continuous-time/5. Geometric Brownian motion
@@ -20,29 +21,31 @@ chapters:
   - file: 2_Stochastic_Continuous-time/Appendix-Diffusions
   - file: 2_Stochastic_Continuous-time/Appendix-Markov Property
   - file: 2_Stochastic_Continuous-time/Q&A
-  - file: 2_Stochastic_Continuous-time/Stochastic integrals
-  - file: 2_Stochastic_Continuous-time/中文
-- file: 3_State_Prices/index
+- file: 3_State_Prices_I/index
   sections:
-  - file: 3_State_Prices/1. States
-  - file: 3_State_Prices/10. Risk-Neutral Probabilities
-  - file: 3_State_Prices/11. Incomplete Markets
-  - file: 3_State_Prices/2. Payoff Matrix
-  - file: 3_State_Prices/3. State Price
-  - file: 3_State_Prices/4. State Pricing
-  - file: 3_State_Prices/5. Law of One Price (LOP)
-  - file: 3_State_Prices/6. Existence of State Prices
-  - file: 3_State_Prices/7. Market Completeness
-  - file: 3_State_Prices/8. Arbitrage
-  - file: 3_State_Prices/8. Free Arbitrage
-  - file: 3_State_Prices/9. Theorem-Fundamental Theorem
-  - file: 3_State_Prices/Appendix-Implications of Market Completeness
-  - file: 3_State_Prices/Marginal Rate of Substitution
-  - file: 3_State_Prices/Multi-period valuation models
-  - file: 3_State_Prices/QA
-  - file: 3_State_Prices/Relative vs. Absolute Pricing
-  - file: 3_State_Prices/Risk premiums
-  - file: 3_State_Prices/Risk-free Rate
+  - file: 3_State_Prices_I/1. States
+  - file: 3_State_Prices_I/2. Payoff Matrix
+  - file: 3_State_Prices_I/3. State Price
+  - file: 3_State_Prices_I/4. State Pricing
+  - file: 3_State_Prices_I/QA
+- file: 3_State_Prices_II/index
+  sections:
+  - file: 3_State_Prices_II/10. Risk-Neutral Probabilities
+  - file: 3_State_Prices_II/11. Incomplete Markets
+  - file: 3_State_Prices_II/5. Law of One Price (LOP)
+  - file: 3_State_Prices_II/6. Existence of State Prices
+  - file: 3_State_Prices_II/7. Market Completeness
+  - file: 3_State_Prices_II/8. Arbitrage
+  - file: 3_State_Prices_II/8. Free Arbitrage
+  - file: 3_State_Prices_II/9. Theorem-Fundamental Theorem
+  - file: 3_State_Prices_II/Appendix-Implications of Market Completeness
+  - file: 3_State_Prices_II/Law of Iterated Expectations
+  - file: 3_State_Prices_II/Marginal Rate of Substitution
+  - file: 3_State_Prices_II/Multi-period valuation models
+  - file: 3_State_Prices_II/Relative vs. Absolute Pricing
+  - file: 3_State_Prices_II/Risk Securities
+  - file: 3_State_Prices_II/Risk premiums
+  - file: 3_State_Prices_II/Risk-free Rate
 - file: 4_Utility/index
   sections:
   - file: 4_Utility/1. Utility
@@ -59,38 +62,38 @@ chapters:
   - file: 4_Utility/Appendix-Ranking Investments
   - file: 4_Utility/Economy with representative agent
   - file: 4_Utility/Risk-Neutral Investors
-- file: 5_PDF/index
+- file: 5_SPD/index
   sections:
-  - file: 5_PDF/5. SDF
-  - file: 5_PDF/6 SDF Pricing
-  - file: 5_PDF/Properties of SDF - Combinations
-  - file: 5_PDF/Properties of SDF - Existence
-  - file: 5_PDF/Properties of SDF - Uniqueness
-  - file: 5_PDF/Time-Preference Factor
-- file: 6_CAPM/index
+  - file: 5_SPD/1. SPD
+  - file: 5_SPD/2. SPD Pricing
+  - file: 5_SPD/Properties of SDF - Combinations
+  - file: 5_SPD/Properties of SDF - Existence
+  - file: 5_SPD/Properties of SDF - Uniqueness
+  - file: 5_SPD/Time-Preference Factor
+- file: 6_Efficient_Frontier/index
   sections:
-  - file: 6_CAPM/1. Portfolio Frontier
-  - file: 6_CAPM/1. Timeline
-  - file: 6_CAPM/2. Modern Portfolio Theory (MPT)
-  - file: 6_CAPM/2. Properties of Frontier Portfolios
-  - file: 6_CAPM/3. CAPM
-  - file: 6_CAPM/3. Efficient Frontier
-  - file: 6_CAPM/4. Empirical Failure of CAPM
-  - file: 6_CAPM/4. Risk-Free Asset
-  - file: 6_CAPM/5. CAPM
-  - file: 6_CAPM/5. Implications of CAPM’s Failure
-  - file: 6_CAPM/Appendix-Capital Market Equilibrium
-  - file: 6_CAPM/Appendix-Capital Market Line
-  - file: 6_CAPM/Appendix-Tpyes of distribution of asset returns
-  - file: 6_CAPM/Appendix-market porfolio in CAPM
-  - file: 6_CAPM/Appendix-option of risk free asset
-- file: 6_CCAMP/index
+  - file: 6_Efficient_Frontier/1. Portfolio Frontier
+  - file: 6_Efficient_Frontier/1. Timeline
+  - file: 6_Efficient_Frontier/2. Modern Portfolio Theory (MPT)
+  - file: 6_Efficient_Frontier/2. Properties of Frontier Portfolios
+  - file: 6_Efficient_Frontier/3. CAPM
+  - file: 6_Efficient_Frontier/3. Efficient Frontier
+  - file: 6_Efficient_Frontier/4. Empirical Failure of CAPM
+  - file: 6_Efficient_Frontier/4. Risk-Free Asset
+  - file: 6_Efficient_Frontier/5. CAPM
+  - file: 6_Efficient_Frontier/5. Implications of CAPM’s Failure
+  - file: 6_Efficient_Frontier/Appendix-Capital Market Equilibrium
+  - file: 6_Efficient_Frontier/Appendix-Capital Market Line
+  - file: 6_Efficient_Frontier/Appendix-Tpyes of distribution of asset returns
+  - file: 6_Efficient_Frontier/Appendix-market porfolio in CAPM
+  - file: 6_Efficient_Frontier/Appendix-option of risk free asset
+- file: 7_CCAMP/index
   sections:
-  - file: 6_CCAMP/1. CCAPM
-  - file: 6_CCAMP/2. Risk Corrections
-  - file: 6_CCAMP/3. Link to CAPM
-  - file: 6_CCAMP/The Chan and Kogan model
-  - file: 6_CCAMP/中文
+  - file: 7_CCAMP/1. CCAPM
+  - file: 7_CCAMP/2. Risk Corrections
+  - file: 7_CCAMP/3. Link to CAPM
+  - file: 7_CCAMP/The Chan and Kogan model
+  - file: 7_CCAMP/中文
 - file: Exercise/index
   sections:
   - file: Exercise/9.19-solution
@@ -111,6 +114,7 @@ chapters:
   - file: Exercise/9.26
   - file: Exercise/9.27-solution
   - file: Exercise/9.27
+  - file: Exercise/9.28
 - file: Math/index
   sections:
   - file: Math/Chain Rule
