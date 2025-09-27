@@ -3,41 +3,46 @@ root: Home
 chapters:
 - file: 1_Intro/index
   sections:
+  - file: 1_Intro/Asset
+  - file: 1_Intro/Info Flow
+  - file: 1_Intro/Uncertainty
   - file: 1_Intro/Zero-coupon bond
 - file: 2_Stochastic_Continuous-time/index
   sections:
   - file: 2_Stochastic_Continuous-time/1. Wiener Process
   - file: 2_Stochastic_Continuous-time/2. Generalized Wiener Process
-  - file: 2_Stochastic_Continuous-time/3. Geometric Brownian motion
+  - file: 2_Stochastic_Continuous-time/3. Itô's Lemma
   - file: 2_Stochastic_Continuous-time/4. Itô process
-  - file: 2_Stochastic_Continuous-time/5. Itô's Lemma
+  - file: 2_Stochastic_Continuous-time/5. Geometric Brownian motion
+  - file: 2_Stochastic_Continuous-time/6. OU process
+  - file: 2_Stochastic_Continuous-time/7. Square-root process
+  - file: 2_Stochastic_Continuous-time/8. Multi-dimensional processes
+  - file: 2_Stochastic_Continuous-time/Appendix-Diffusions
   - file: 2_Stochastic_Continuous-time/Appendix-Markov Property
-  - file: 2_Stochastic_Continuous-time/Multi-dimensional processes
+  - file: 2_Stochastic_Continuous-time/Q&A
   - file: 2_Stochastic_Continuous-time/Stochastic integrals
   - file: 2_Stochastic_Continuous-time/中文
-- file: 3_State_Pricing/index
+- file: 3_State_Prices/index
   sections:
-  - file: 3_State_Pricing/1. Payoff Matrix
-  - file: 3_State_Pricing/2. SDF
-  - file: 3_State_Pricing/2. State Pricing
-  - file: 3_State_Pricing/3. Market Completeness
-  - file: 3_State_Pricing/3. SDF Pricing
-  - file: 3_State_Pricing/4. Law of One Price (LOP)
-  - file: 3_State_Pricing/4. Risk premiums
-  - file: 3_State_Pricing/5. Risk-Neutral Probabilities
-  - file: 3_State_Pricing/5. Theorem-Fundamental Theorem
-  - file: 3_State_Pricing/6. Existence of SDF
-  - file: 3_State_Pricing/6. Incomplete Markets
-  - file: 3_State_Pricing/7. Absence of Arbitrage
-  - file: 3_State_Pricing/Appendix-Implications of Market Completeness
-  - file: 3_State_Pricing/Economy with representative agent
-  - file: 3_State_Pricing/Marginal Rate of Substitution
-  - file: 3_State_Pricing/Q&A
-  - file: 3_State_Pricing/Q
-  - file: 3_State_Pricing/Relative vs. Absolute Pricing
-  - file: 3_State_Pricing/State Price
-  - file: 3_State_Pricing/State-price deflater
-  - file: 3_State_Pricing/Time-Preference Factor
+  - file: 3_State_Prices/1. States
+  - file: 3_State_Prices/10. Risk-Neutral Probabilities
+  - file: 3_State_Prices/11. Incomplete Markets
+  - file: 3_State_Prices/2. Payoff Matrix
+  - file: 3_State_Prices/3. State Price
+  - file: 3_State_Prices/4. State Pricing
+  - file: 3_State_Prices/5. Law of One Price (LOP)
+  - file: 3_State_Prices/6. Existence of State Prices
+  - file: 3_State_Prices/7. Market Completeness
+  - file: 3_State_Prices/8. Arbitrage
+  - file: 3_State_Prices/8. Free Arbitrage
+  - file: 3_State_Prices/9. Theorem-Fundamental Theorem
+  - file: 3_State_Prices/Appendix-Implications of Market Completeness
+  - file: 3_State_Prices/Marginal Rate of Substitution
+  - file: 3_State_Prices/Multi-period valuation models
+  - file: 3_State_Prices/QA
+  - file: 3_State_Prices/Relative vs. Absolute Pricing
+  - file: 3_State_Prices/Risk premiums
+  - file: 3_State_Prices/Risk-free Rate
 - file: 4_Utility/index
   sections:
   - file: 4_Utility/1. Utility
@@ -52,24 +57,33 @@ chapters:
   - file: 4_Utility/Appendix-Financial Markets
   - file: 4_Utility/Appendix-Problems with EUT
   - file: 4_Utility/Appendix-Ranking Investments
+  - file: 4_Utility/Economy with representative agent
   - file: 4_Utility/Risk-Neutral Investors
-- file: 5_CAPM/index
+- file: 5_PDF/index
   sections:
-  - file: 5_CAPM/1. Portfolio Frontier
-  - file: 5_CAPM/1. Timeline
-  - file: 5_CAPM/2. Modern Portfolio Theory (MPT)
-  - file: 5_CAPM/2. Properties of Frontier Portfolios
-  - file: 5_CAPM/3. CAPM
-  - file: 5_CAPM/3. Efficient Frontier
-  - file: 5_CAPM/4. Empirical Failure of CAPM
-  - file: 5_CAPM/4. Risk-Free Asset
-  - file: 5_CAPM/5. CAPM
-  - file: 5_CAPM/5. Implications of CAPM’s Failure
-  - file: 5_CAPM/Appendix-Capital Market Equilibrium
-  - file: 5_CAPM/Appendix-Capital Market Line
-  - file: 5_CAPM/Appendix-Tpyes of distribution of asset returns
-  - file: 5_CAPM/Appendix-market porfolio in CAPM
-  - file: 5_CAPM/Appendix-option of risk free asset
+  - file: 5_PDF/5. SDF
+  - file: 5_PDF/6 SDF Pricing
+  - file: 5_PDF/Properties of SDF - Combinations
+  - file: 5_PDF/Properties of SDF - Existence
+  - file: 5_PDF/Properties of SDF - Uniqueness
+  - file: 5_PDF/Time-Preference Factor
+- file: 6_CAPM/index
+  sections:
+  - file: 6_CAPM/1. Portfolio Frontier
+  - file: 6_CAPM/1. Timeline
+  - file: 6_CAPM/2. Modern Portfolio Theory (MPT)
+  - file: 6_CAPM/2. Properties of Frontier Portfolios
+  - file: 6_CAPM/3. CAPM
+  - file: 6_CAPM/3. Efficient Frontier
+  - file: 6_CAPM/4. Empirical Failure of CAPM
+  - file: 6_CAPM/4. Risk-Free Asset
+  - file: 6_CAPM/5. CAPM
+  - file: 6_CAPM/5. Implications of CAPM’s Failure
+  - file: 6_CAPM/Appendix-Capital Market Equilibrium
+  - file: 6_CAPM/Appendix-Capital Market Line
+  - file: 6_CAPM/Appendix-Tpyes of distribution of asset returns
+  - file: 6_CAPM/Appendix-market porfolio in CAPM
+  - file: 6_CAPM/Appendix-option of risk free asset
 - file: 6_CCAMP/index
   sections:
   - file: 6_CCAMP/1. CCAPM
@@ -77,11 +91,6 @@ chapters:
   - file: 6_CCAMP/3. Link to CAPM
   - file: 6_CCAMP/The Chan and Kogan model
   - file: 6_CCAMP/中文
-- file: Appendix-Scholars/index
-  sections:
-  - file: Appendix-Scholars/Claus Munk
-  - file: Appendix-Scholars/John Cochrane
-  - file: Appendix-Scholars/Lars Peter Hansen
 - file: Exercise/index
   sections:
   - file: Exercise/9.19-solution
@@ -92,9 +101,21 @@ chapters:
   - file: Exercise/9.21
   - file: Exercise/9.22-solution
   - file: Exercise/9.22
+  - file: Exercise/9.23-solution
+  - file: Exercise/9.23
+  - file: Exercise/9.24-solution
+  - file: Exercise/9.24
+  - file: Exercise/9.25-solution
+  - file: Exercise/9.25
+  - file: Exercise/9.26 Solution
+  - file: Exercise/9.26
+  - file: Exercise/9.27-solution
+  - file: Exercise/9.27
 - file: Math/index
   sections:
   - file: Math/Chain Rule
+  - file: Math/Full Rank
+  - file: Math/Inverse of Matrix
   - file: Math/Log-normal distribution
   - file: Math/Normal distribution
   - file: Math/Optimization problems
@@ -102,3 +123,9 @@ chapters:
   - file: Math/Variance and Covariance
   - file: Math/Vectors and matrices
   - file: Math/柯西施瓦茨不等式
+  - file: Math/积分求导
+- file: Scholars/index
+  sections:
+  - file: Scholars/Claus Munk
+  - file: Scholars/John Cochrane
+  - file: Scholars/Lars Peter Hansen
