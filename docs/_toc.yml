@@ -25,26 +25,24 @@ chapters:
   sections:
   - file: 3_State_Prices_I/1. States
   - file: 3_State_Prices_I/2. Payoff Matrix
-  - file: 3_State_Prices_I/3. State Price
+  - file: 3_State_Prices_I/3. State Price Vector
   - file: 3_State_Prices_I/4. State Pricing
   - file: 3_State_Prices_I/QA
 - file: 3_State_Prices_II/index
   sections:
-  - file: 3_State_Prices_II/10. Risk-Neutral Probabilities
-  - file: 3_State_Prices_II/11. Incomplete Markets
-  - file: 3_State_Prices_II/5. Law of One Price (LOP)
-  - file: 3_State_Prices_II/6. Existence of State Prices
-  - file: 3_State_Prices_II/7. Market Completeness
-  - file: 3_State_Prices_II/8. Arbitrage
-  - file: 3_State_Prices_II/8. Free Arbitrage
-  - file: 3_State_Prices_II/9. Theorem-Fundamental Theorem
+  - file: 3_State_Prices_II/1. Law of One Price (LOP)
+  - file: 3_State_Prices_II/2. Existence of State-prices
+  - file: 3_State_Prices_II/3. Unique of State-prices
+  - file: 3_State_Prices_II/4. Arbitrage and Positivity of State-price
+  - file: 3_State_Prices_II/5. State-price is not unique
+  - file: 3_State_Prices_II/6. Fundamental Theorem
+  - file: 3_State_Prices_II/7. Risk-Neutral Probabilities
   - file: 3_State_Prices_II/Appendix-Implications of Market Completeness
   - file: 3_State_Prices_II/Law of Iterated Expectations
   - file: 3_State_Prices_II/Marginal Rate of Substitution
   - file: 3_State_Prices_II/Multi-period valuation models
   - file: 3_State_Prices_II/Relative vs. Absolute Pricing
   - file: 3_State_Prices_II/Risk Securities
-  - file: 3_State_Prices_II/Risk premiums
   - file: 3_State_Prices_II/Risk-free Rate
 - file: 4_Utility/index
   sections:
@@ -69,6 +67,7 @@ chapters:
   - file: 5_SPD/Properties of SDF - Combinations
   - file: 5_SPD/Properties of SDF - Existence
   - file: 5_SPD/Properties of SDF - Uniqueness
+  - file: 5_SPD/Risk premiums
   - file: 5_SPD/Time-Preference Factor
 - file: 6_Efficient_Frontier/index
   sections:
@@ -96,6 +95,10 @@ chapters:
   - file: 7_CCAMP/中文
 - file: Exercise/index
   sections:
+  - file: Exercise/10.1-solution
+  - file: Exercise/10.1
+  - file: Exercise/10.2-solution
+  - file: Exercise/10.2
   - file: Exercise/9.19-solution
   - file: Exercise/9.19
   - file: Exercise/9.20-solution
@@ -114,18 +117,26 @@ chapters:
   - file: Exercise/9.26
   - file: Exercise/9.27-solution
   - file: Exercise/9.27
+  - file: Exercise/9.28-solution
   - file: Exercise/9.28
+  - file: Exercise/9.29-solution
+  - file: Exercise/9.29
+  - file: Exercise/9.30-solution
+  - file: Exercise/9.30
 - file: Math/index
   sections:
-  - file: Math/Chain Rule
-  - file: Math/Full Rank
-  - file: Math/Inverse of Matrix
+  - file: Math/Algebra-Full Rank
+  - file: Math/Algebra-Inverse of Matrix
+  - file: Math/Calculus-Chain Rule
+  - file: Math/Calculus-可分离变量的一阶线性常微分方程
   - file: Math/Log-normal distribution
   - file: Math/Normal distribution
   - file: Math/Optimization problems
+  - file: Math/Prob-Expectation Properties
   - file: Math/Product rule
   - file: Math/Variance and Covariance
   - file: Math/Vectors and matrices
+  - file: Math/期望和积分交换规则
   - file: Math/柯西施瓦茨不等式
   - file: Math/积分求导
 - file: Scholars/index
