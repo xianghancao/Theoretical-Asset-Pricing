@@ -1,6 +1,34 @@
 format: jb-book
 root: Home
 chapters:
+- file: 10_Factor_Models/index
+  sections:
+  - file: 10_Factor_Models/1 One-Period Factor Models
+  - file: 10_Factor_Models/1. Portfolio Frontier
+  - file: 10_Factor_Models/2 Multi-period Factor Models
+  - file: 10_Factor_Models/3 Empirical Factor Models
+  - file: 10_Factor_Models/3. Efficient Frontier
+  - file: 10_Factor_Models/4. Empirical Failure of CAPM
+  - file: 10_Factor_Models/4. Risk-Free Asset
+  - file: 10_Factor_Models/5. CAPM
+  - file: 10_Factor_Models/5. Implications of CAPM’s Failure
+  - file: 10_Factor_Models/Appendix-Capital Market Equilibrium
+  - file: 10_Factor_Models/Appendix-Capital Market Line
+  - file: 10_Factor_Models/Appendix-Timeline
+  - file: 10_Factor_Models/Appendix-Tpyes of distribution of asset returns
+  - file: 10_Factor_Models/Appendix-market porfolio in CAPM
+  - file: 10_Factor_Models/Appendix-option of risk free asset
+  - file: 10_Factor_Models/CAPM
+  - file: 10_Factor_Models/Exercise9.2
+  - file: 10_Factor_Models/Properties of Frontier Portfolios
+  - file: 10_Factor_Models/QA
+- file: 11_Stucture_Interest/index
+  sections:
+  - file: 11_Stucture_Interest/1 债券定价的基础
+  - file: 11_Stucture_Interest/2 利率与 SDF 的关系
+  - file: 11_Stucture_Interest/3 期望假说与风险溢价
+  - file: 11_Stucture_Interest/4 Affine Term Structure Models
+  - file: 11_Stucture_Interest/5 著名的单因子模型
 - file: 1_Intro/index
   sections:
   - file: 1_Intro/Asset
@@ -69,36 +97,50 @@ chapters:
   - file: 5_SPD/Properties of SDF - Uniqueness
   - file: 5_SPD/Risk premiums
   - file: 5_SPD/Time-Preference Factor
-- file: 6_Efficient_Frontier/index
+- file: 6_Individual_Optimality/index
   sections:
-  - file: 6_Efficient_Frontier/1. Portfolio Frontier
-  - file: 6_Efficient_Frontier/1. Timeline
-  - file: 6_Efficient_Frontier/2. Modern Portfolio Theory (MPT)
-  - file: 6_Efficient_Frontier/2. Properties of Frontier Portfolios
-  - file: 6_Efficient_Frontier/3. CAPM
-  - file: 6_Efficient_Frontier/3. Efficient Frontier
-  - file: 6_Efficient_Frontier/4. Empirical Failure of CAPM
-  - file: 6_Efficient_Frontier/4. Risk-Free Asset
-  - file: 6_Efficient_Frontier/5. CAPM
-  - file: 6_Efficient_Frontier/5. Implications of CAPM’s Failure
-  - file: 6_Efficient_Frontier/Appendix-Capital Market Equilibrium
-  - file: 6_Efficient_Frontier/Appendix-Capital Market Line
-  - file: 6_Efficient_Frontier/Appendix-Tpyes of distribution of asset returns
-  - file: 6_Efficient_Frontier/Appendix-market porfolio in CAPM
-  - file: 6_Efficient_Frontier/Appendix-option of risk free asset
-- file: 7_CCAMP/index
+  - file: 6_Individual_Optimality/Bellman Equation
+  - file: 6_Individual_Optimality/欧拉方程
+- file: 7_Equilibrium/index
   sections:
-  - file: 7_CCAMP/1. CCAPM
-  - file: 7_CCAMP/2. Risk Corrections
-  - file: 7_CCAMP/3. Link to CAPM
-  - file: 7_CCAMP/The Chan and Kogan model
-  - file: 7_CCAMP/中文
+  - file: 7_Equilibrium/1 Conditions of Equilibrium
+  - file: 7_Equilibrium/2 Pareto-Optimality
+  - file: 7_Equilibrium/3 Efficient Risk-Sharing
+  - file: 7_Equilibrium/4 Representative Individual
+  - file: 7_Equilibrium/5 Market Completeness
+  - file: 7_Equilibrium/5 异质代理人经济
+- file: 8_CCAMP/index
+  sections:
+  - file: 8_CCAMP/1 General One-Period Results
+  - file: 8_CCAMP/2 Multi-Period CCAPM
+  - file: 8_CCAMP/3 Asset Pricing Puzzles
+  - file: 8_CCAMP/4 Problems with the Empirical Studies
+  - file: 8_CCAMP/Appendix-Link to CAPM
+  - file: 8_CCAMP/Appendix-Optimization Problem
+  - file: 8_CCAMP/Exercise8.1
+- file: 9_Advanced_CCAMP/index
+  sections:
+  - file: 9_Advanced_CCAMP/1 Habit Formation
+  - file: 9_Advanced_CCAMP/2 State-Dependent Preferences
+  - file: 9_Advanced_CCAMP/3 Epstein-Zin preferences
+  - file: 9_Advanced_CCAMP/4 Long-run Risk Model
+  - file: 9_Advanced_CCAMP/5 Rare Disasters Model
+  - file: 9_Advanced_CCAMP/6 Multiple Consumption Goods
+  - file: 9_Advanced_CCAMP/7 No Representative Individual
 - file: Exercise/index
   sections:
   - file: Exercise/10.1-solution
   - file: Exercise/10.1
   - file: Exercise/10.2-solution
   - file: Exercise/10.2
+  - file: Exercise/10.3-solution
+  - file: Exercise/10.3
+  - file: Exercise/10.4-solution
+  - file: Exercise/10.4
+  - file: Exercise/10.5-solution
+  - file: Exercise/10.5
+  - file: Exercise/10.6-solution
+  - file: Exercise/10.6
   - file: Exercise/9.19-solution
   - file: Exercise/9.19
   - file: Exercise/9.20-solution
@@ -130,6 +172,7 @@ chapters:
   - file: Math/Calculus-Chain Rule
   - file: Math/Calculus-可分离变量的一阶线性常微分方程
   - file: Math/Log-normal distribution
+  - file: Math/Mean value theorem
   - file: Math/Normal distribution
   - file: Math/Optimization problems
   - file: Math/Prob-Expectation Properties
