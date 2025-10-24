@@ -1,6 +1,7 @@
 format: jb-book
 root: Home
 chapters:
+- file: FormulaSheet
 - file: 10_Factor_Models/index
   sections:
   - file: 10_Factor_Models/1 One-Period Factor Models
@@ -19,7 +20,10 @@ chapters:
   - file: 10_Factor_Models/Appendix-market porfolio in CAPM
   - file: 10_Factor_Models/Appendix-option of risk free asset
   - file: 10_Factor_Models/CAPM
-  - file: 10_Factor_Models/Exercise9.2
+  - file: 10_Factor_Models/Exercise10.1
+  - file: 10_Factor_Models/Exercise10.2
+  - file: 10_Factor_Models/Exercise10.3
+  - file: 10_Factor_Models/Exercise10.4
   - file: 10_Factor_Models/Properties of Frontier Portfolios
   - file: 10_Factor_Models/QA
 - file: 11_Stucture_Interest/index
@@ -29,86 +33,106 @@ chapters:
   - file: 11_Stucture_Interest/3 期望假说与风险溢价
   - file: 11_Stucture_Interest/4 Affine Term Structure Models
   - file: 11_Stucture_Interest/5 著名的单因子模型
+  - file: 11_Stucture_Interest/Exercise11.8
 - file: 1_Intro/index
   sections:
   - file: 1_Intro/Asset
-  - file: 1_Intro/Info Flow
-  - file: 1_Intro/Uncertainty
+  - file: 1_Intro/One Framework
   - file: 1_Intro/Zero-coupon bond
-- file: 2_Stochastic_Continuous-time/index
+- file: 2_Stochastic_Processes/index
   sections:
-  - file: 2_Stochastic_Continuous-time/1. Brownian Motion
-  - file: 2_Stochastic_Continuous-time/2. Generalized Wiener Process
-  - file: 2_Stochastic_Continuous-time/3. Itô integral
-  - file: 2_Stochastic_Continuous-time/3. Itô's Lemma
-  - file: 2_Stochastic_Continuous-time/4. Itô process
-  - file: 2_Stochastic_Continuous-time/5. Geometric Brownian motion
-  - file: 2_Stochastic_Continuous-time/6. OU process
-  - file: 2_Stochastic_Continuous-time/7. Square-root process
-  - file: 2_Stochastic_Continuous-time/8. Multi-dimensional processes
-  - file: 2_Stochastic_Continuous-time/Appendix-Diffusions
-  - file: 2_Stochastic_Continuous-time/Appendix-Markov Property
-  - file: 2_Stochastic_Continuous-time/Q&A
+  - file: 2_Stochastic_Processes/1 LIE
+  - file: 2_Stochastic_Processes/2 Brownian Motion
+  - file: 2_Stochastic_Processes/3 Generalized Brownian Process
+  - file: 2_Stochastic_Processes/4 Geometric Brownian motion
+  - file: 2_Stochastic_Processes/5 Itô's Lemma
+  - file: 2_Stochastic_Processes/6 Multi-dimensional processes
+  - file: 2_Stochastic_Processes/Appendix-Diffusions
+  - file: 2_Stochastic_Processes/Appendix-GBM的标量形式解法
+  - file: 2_Stochastic_Processes/Appendix-Markov Property
+  - file: 2_Stochastic_Processes/Appendix-OU process
+  - file: 2_Stochastic_Processes/Exercise2.1
+  - file: 2_Stochastic_Processes/Exercise2.2
+  - file: 2_Stochastic_Processes/Exercise2.3
+  - file: 2_Stochastic_Processes/Exercise2.4
+  - file: 2_Stochastic_Processes/Exercise2.5
+  - file: 2_Stochastic_Processes/Exercise2.6
+  - file: 2_Stochastic_Processes/Exercise2.7
+  - file: 2_Stochastic_Processes/Exercise2.8
+  - file: 2_Stochastic_Processes/ExerciseX1
+  - file: 2_Stochastic_Processes/Q&A
 - file: 3_State_Prices_I/index
   sections:
   - file: 3_State_Prices_I/1. States
-  - file: 3_State_Prices_I/2. Payoff Matrix
-  - file: 3_State_Prices_I/3. State Price Vector
+  - file: 3_State_Prices_I/2. Payoff
+  - file: 3_State_Prices_I/3. State Price
   - file: 3_State_Prices_I/4. State Pricing
+  - file: 3_State_Prices_I/5. Portfolio
   - file: 3_State_Prices_I/QA
 - file: 3_State_Prices_II/index
   sections:
   - file: 3_State_Prices_II/1. Law of One Price (LOP)
-  - file: 3_State_Prices_II/2. Existence of State-prices
-  - file: 3_State_Prices_II/3. Unique of State-prices
-  - file: 3_State_Prices_II/4. Arbitrage and Positivity of State-price
-  - file: 3_State_Prices_II/5. State-price is not unique
-  - file: 3_State_Prices_II/6. Fundamental Theorem
-  - file: 3_State_Prices_II/7. Risk-Neutral Probabilities
+  - file: 3_State_Prices_II/2. Market Completeness
+  - file: 3_State_Prices_II/3. Incomplete markets
+  - file: 3_State_Prices_II/4 No Arbitrage
+  - file: 3_State_Prices_II/5. Fundamental Theorem
+  - file: 3_State_Prices_II/6. Risk-Neutral Probabilities
   - file: 3_State_Prices_II/Appendix-Implications of Market Completeness
-  - file: 3_State_Prices_II/Law of Iterated Expectations
-  - file: 3_State_Prices_II/Marginal Rate of Substitution
-  - file: 3_State_Prices_II/Multi-period valuation models
-  - file: 3_State_Prices_II/Relative vs. Absolute Pricing
-  - file: 3_State_Prices_II/Risk Securities
-  - file: 3_State_Prices_II/Risk-free Rate
-- file: 4_Utility/index
+  - file: 3_State_Prices_II/Exercise3.1
+  - file: 3_State_Prices_II/Exercise3.2
+  - file: 3_State_Prices_II/Exercise3.3
+  - file: 3_State_Prices_II/Exercise3.4
+- file: 4_SPD/index
   sections:
-  - file: 4_Utility/1. Utility
-  - file: 4_Utility/2. Utility Function
-  - file: 4_Utility/3. Marginal Utility
-  - file: 4_Utility/4. Expected Utility
-  - file: 4_Utility/5. Risk Aversion
-  - file: 4_Utility/6. Risk_Aversion_Coefficients
-  - file: 4_Utility/7. Certainty equivalent
-  - file: 4_Utility/8. Risk Premium
-  - file: 4_Utility/9. Merton's Portfolio Problem
-  - file: 4_Utility/Appendix-Financial Markets
-  - file: 4_Utility/Appendix-Problems with EUT
-  - file: 4_Utility/Appendix-Ranking Investments
-  - file: 4_Utility/Economy with representative agent
-  - file: 4_Utility/Risk-Neutral Investors
-- file: 5_SPD/index
+  - file: 4_SPD/1 SPD-One-period
+  - file: 4_SPD/2 SPD-Discrete-Time
+  - file: 4_SPD/3 SPD-Continuous-Time
+  - file: 4_SPD/Exercise4.1
+  - file: 4_SPD/Exercise4.10-2
+  - file: 4_SPD/Exercise4.10
+  - file: 4_SPD/Exercise4.11
+  - file: 4_SPD/Exercise4.2
+  - file: 4_SPD/Exercise4.3
+  - file: 4_SPD/Exercise4.4
+  - file: 4_SPD/Exercise4.5
+  - file: 4_SPD/Exercise4.6
+  - file: 4_SPD/Exercise4.7
+  - file: 4_SPD/ExerciseX3
+  - file: 4_SPD/LIE
+  - file: 4_SPD/[draft] Backward Induction
+  - file: 4_SPD/[draft] Properties of SDF - Combinations
+  - file: 4_SPD/[draft] Properties of SDF - Existence
+  - file: 4_SPD/[draft] Properties of SDF - Uniqueness
+- file: 5_Utility/index
   sections:
-  - file: 5_SPD/1. SPD
-  - file: 5_SPD/2. SPD Pricing
-  - file: 5_SPD/Properties of SDF - Combinations
-  - file: 5_SPD/Properties of SDF - Existence
-  - file: 5_SPD/Properties of SDF - Uniqueness
-  - file: 5_SPD/Risk premiums
-  - file: 5_SPD/Time-Preference Factor
+  - file: 5_Utility/1 Utility Function
+  - file: 5_Utility/2 Marginal Utility
+  - file: 5_Utility/3 Expected Utility
+  - file: 5_Utility/4 Risk Aversion
+  - file: 5_Utility/Exercise5.2
+  - file: 5_Utility/Exercise5.3
+  - file: 5_Utility/Exercise5.5
+  - file: 5_Utility/Exercise5.7
 - file: 6_Individual_Optimality/index
   sections:
-  - file: 6_Individual_Optimality/Bellman Equation
-  - file: 6_Individual_Optimality/欧拉方程
+  - file: 6_Individual_Optimality/1 SPD-one-period
+  - file: 6_Individual_Optimality/2 SPD-Discrete-Time
+  - file: 6_Individual_Optimality/3 Continuous-Time Dynamic Programming
+  - file: 6_Individual_Optimality/Appendix-Optimization Problem
+  - file: 6_Individual_Optimality/Exercise6.3
+  - file: 6_Individual_Optimality/ExerciseX2
+  - file: 6_Individual_Optimality/[draft] Time-Preference Factor
+  - file: 6_Individual_Optimality/[draft] 欧拉方程
 - file: 7_Equilibrium/index
   sections:
-  - file: 7_Equilibrium/1 Conditions of Equilibrium
-  - file: 7_Equilibrium/2 Pareto-Optimality
-  - file: 7_Equilibrium/3 Efficient Risk-Sharing
-  - file: 7_Equilibrium/4 Representative Individual
-  - file: 7_Equilibrium/5 Market Completeness
-  - file: 7_Equilibrium/5 异质代理人经济
+  - file: 7_Equilibrium/Exercise7.1-1
+  - file: 7_Equilibrium/Exercise7.1
+  - file: 7_Equilibrium/Exercise7.2
+  - file: 7_Equilibrium/Exercise7.3
+  - file: 7_Equilibrium/Exercise7.4
+  - file: 7_Equilibrium/Exercise7.5
+  - file: 7_Equilibrium/Exercise7.6
+  - file: 7_Equilibrium/[Draft]
 - file: 8_CCAMP/index
   sections:
   - file: 8_CCAMP/1 General One-Period Results
@@ -118,6 +142,13 @@ chapters:
   - file: 8_CCAMP/Appendix-Link to CAPM
   - file: 8_CCAMP/Appendix-Optimization Problem
   - file: 8_CCAMP/Exercise8.1
+  - file: 8_CCAMP/Exercise8.11
+  - file: 8_CCAMP/Exercise8.2
+  - file: 8_CCAMP/Exercise8.4-2
+  - file: 8_CCAMP/Exercise8.4
+  - file: 8_CCAMP/Exercise8.5-2
+  - file: 8_CCAMP/Exercise8.5
+  - file: 8_CCAMP/X4
 - file: 9_Advanced_CCAMP/index
   sections:
   - file: 9_Advanced_CCAMP/1 Habit Formation
@@ -127,61 +158,25 @@ chapters:
   - file: 9_Advanced_CCAMP/5 Rare Disasters Model
   - file: 9_Advanced_CCAMP/6 Multiple Consumption Goods
   - file: 9_Advanced_CCAMP/7 No Representative Individual
-- file: Exercise/index
-  sections:
-  - file: Exercise/10.1-solution
-  - file: Exercise/10.1
-  - file: Exercise/10.2-solution
-  - file: Exercise/10.2
-  - file: Exercise/10.3-solution
-  - file: Exercise/10.3
-  - file: Exercise/10.4-solution
-  - file: Exercise/10.4
-  - file: Exercise/10.5-solution
-  - file: Exercise/10.5
-  - file: Exercise/10.6-solution
-  - file: Exercise/10.6
-  - file: Exercise/9.19-solution
-  - file: Exercise/9.19
-  - file: Exercise/9.20-solution
-  - file: Exercise/9.20
-  - file: Exercise/9.21-solution
-  - file: Exercise/9.21
-  - file: Exercise/9.22-solution
-  - file: Exercise/9.22
-  - file: Exercise/9.23-solution
-  - file: Exercise/9.23
-  - file: Exercise/9.24-solution
-  - file: Exercise/9.24
-  - file: Exercise/9.25-solution
-  - file: Exercise/9.25
-  - file: Exercise/9.26 Solution
-  - file: Exercise/9.26
-  - file: Exercise/9.27-solution
-  - file: Exercise/9.27
-  - file: Exercise/9.28-solution
-  - file: Exercise/9.28
-  - file: Exercise/9.29-solution
-  - file: Exercise/9.29
-  - file: Exercise/9.30-solution
-  - file: Exercise/9.30
+  - file: 9_Advanced_CCAMP/Exercise9.4
+  - file: 9_Advanced_CCAMP/X5
+  - file: 9_Advanced_CCAMP/X6
 - file: Math/index
   sections:
   - file: Math/Algebra-Full Rank
-  - file: Math/Algebra-Inverse of Matrix
+  - file: Math/Calculs-Jensen's Inequality
   - file: Math/Calculus-Chain Rule
+  - file: Math/Calculus-Jensen's inequality
+  - file: Math/Calculus-Mean value theorem
   - file: Math/Calculus-可分离变量的一阶线性常微分方程
-  - file: Math/Log-normal distribution
-  - file: Math/Mean value theorem
-  - file: Math/Normal distribution
-  - file: Math/Optimization problems
+  - file: Math/Calculus-积分求导规则
+  - file: Math/Opt-Lagrange Multiplier Method
   - file: Math/Prob-Expectation Properties
+  - file: Math/Prob-Log-normal distribution
+  - file: Math/Prob-Variance and Covariance
+  - file: Math/Prob-期望和积分交换规则
+  - file: Math/Prob-柯西施瓦茨不等式
   - file: Math/Product rule
-  - file: Math/Variance and Covariance
-  - file: Math/Vectors and matrices
-  - file: Math/期望和积分交换规则
-  - file: Math/柯西施瓦茨不等式
-  - file: Math/积分求导
 - file: Scholars/index
   sections:
   - file: Scholars/Claus Munk
